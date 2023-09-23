@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment #3- About</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+        }
+
+
+        html,body{
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f4f4;
+        }
+
+        #navbar ul{
+            list-style: none;
+            float:right;
+        }
+
+        #navbar ul li{
+            display: inline-block;
+            padding:1rem;
+            color:#333;
+            margin:auto 15px;
+        }
+
+        #navbar ul li a{
+            text-decoration: none;
+            color:black;
+            font-size: 20px;
+        }
+
+        #navbar ul li:hover{
+            cursor:pointer;
+            background:coral;
+            color:#fff;
+        }
+
+        #logo{
+            float:left;
+            padding:1rem;
+        }
+
+        #container{
+            display: inline-block;
+            margin:0 auto;
+            border: 1px solid red;
+            width:100%;
+            background-image: url("images/photo-2.jpg");
+            text-align: center;
+            height:600px;
+            padding:10%;
+        }
+
+        #container #info h1{
+            font-size: 50px;
+        }
+
+        #container #info p{
+            line-height: 4rem;
+            font-size: 30px;
+        }
+
+        #btn{
+            text-decoration: none;
+            text-align: center;
+            border: 2px solid black;
+            color:white;
+            background-color:coral;
+            border-radius: 5px;
+            padding:1%;
+        }
+
+        #btn:hover{
+            background-color:#fff;
+            color:coral;
+        }
+
+        #main_footer{
+            background:#333;
+            color:#fff;
+            padding:20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <h2 id="logo">Assignment #3</h2>
+            <ul>
+                <li><a href="assignment#3_index.html">Home</a></li>
+                <li><a href="assignment#3_about.html">About</a></li>
+                <li><a href="assignment#3_services.html">Services</a></li>
+                <li><a href="assignment#3_contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about_info">
+        <div id="container">
+            <div id="info">
+                <h1>About Assignment #3</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nihil autem inventore necessitatibus sed nobis, corrupti sunt tempore iure distinctio?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique saepe explicabo hic accusamus unde! Vero?</p>
+                <a href="assignment#3_about.html" id="btn">Know more</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="main_footer">
+        <h3>Assignment #3 &COPY; 2023 ALL RIGHTS RESERVED</h3>
+    </footer>
+</body>
+</html>

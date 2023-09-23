@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment #2</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+        }
+
+        form{
+            margin:20px 30px;
+        }
+
+        #form_container{
+            display:block;
+            width:400px;
+            height:500px;
+            border: 1px solid black;
+            border-radius: 10px;
+            margin:100px auto;
+            background-color:aliceblue;
+        }
+
+        .input_styling{
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="form_container">
+        <form action="#" method="get">
+            <input required type="text" id="firstname" placeholder="Enter your first name" class="input_styling">
+            <br><br>
+            <input required type="text" id="lastname" placeholder="Enter your last name" class="input_styling">
+            <br><br>
+            <input required type="email" id="email" placeholder="Enter your email id" class="input_styling">
+            <br><br>
+            <p>Please select your gender:</p>
+            <input type="radio" id="male" value="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" id="female" value="female">
+            <label for="female">Female</label>
+            <br>
+            <input type="radio" id="donot_disclose" value="donot_disclose">
+            <label for="donot_disclose">I do not wish to disclose</label>
+            <br><br>
+            <input required type="number" id="age" name="age" min="18" max="99" placeholder="Enter your age" class="input_styling">
+            <br><br>
+            <label for="place_of_birth">Enter your place of birth:</label><br>
+            <select required name="place_of_birth" id="place_of_birth">
+                <option hidden></option>
+                <option value="bangalore">Bangalore</option>
+                <option value="jaiput">Jaiput</option>
+                <option value="sambalpur">Sambalpur</option>
+                <option value="mangalore">Mangalore</option>
+                <option value="patna">Patna</option>
+                <option value="srinagar">Srinagar</option>
+                <option value="kanput">Kanpur</option>
+                <option value="guwahati">Guwahati</option>
+                <option value="hassan">Hassan</option>
+                <option value="ramnagar">Ramnagar</option>
+                <option value="bidar">Bidar</option>
+                <option value="tumkur">Tumkur</option>
+            </select>
+            <br><br>
+            <label for="upload_resume">Upload your resume:</label>
+            <input required type="file" name="upload_resume" accept="application/pdf,application/doc,application/docx">
+            <br><br>
+            <label for="position">Enter the position you are applying for:</label><br>
+            <select required name="position" id="position">
+                <option hidden></option>
+                <option value="developer">Developer</option>
+                <option value="designer">Designer</option>
+                <option value="test_engineer">Test Engineer</option>
+                <option value="sales_support">Sales Support</option>
+                <option value="hr">HR</option>
+            </select>
+            <br><br>
+            <label for="joining_date">Enter your tentative joining date</label><br>
+            <input required type="date" id="joining_date" name="joining_date" class="input_styling">
+        </form>
+    </div>
+</body>
+</html>

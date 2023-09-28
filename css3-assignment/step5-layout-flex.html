@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout flex</title>
+    <style>
+        .container{
+            width:900px;
+            height:500px;
+            background-color: aliceblue;
+            outline: 1px solid black;
+        }
+        #header1{
+            width:95%;
+            height:50px;
+            background-color: yellow;
+            margin:auto;
+        }
+        #nav{
+            width:95%;
+            height:40px;
+            background-color: orange;
+            margin:10px auto;
+        }
+        .main_aside_container{
+            height: 300px;
+            width:100%;
+            display: flex;
+            flex-direction: row;
+            margin-left:10px;
+        }
+        #main{
+            width:70%;
+            height: 300px;
+            background-color: blue;
+            margin:10px;
+        }
+        #aside{
+            width:23%;
+            height:280px;
+            background-color: grey;
+            margin:10px;
+        }
+        #section{
+            width:95%;
+            height:260px;
+            background-color: grey;
+            margin:10px auto;
+            display: flex;
+            flex-direction: column;
+        }
+        #header2{
+            width:95%;
+            height:50px;
+            background-color: yellow;
+            margin:5px auto;
+        }
+        .article{
+            width:95%;
+            height:60px;
+            background-color: azure;
+            margin: 5px auto;
+        }
+        #header3{
+            width:95%;
+            height:40px;
+            background-color: yellow;
+            margin:10px auto;
+        }
+        #footer{
+            width:95%;
+            height:50px;
+            background-color: rgb(80, 60, 63);
+            margin:20px auto;   
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div id="header1">header</div>
+            <div id="nav">nav</div>
+
+        <div class="main_aside_container">
+            
+            <div id="main">
+                
+                <div id="section">
+                    <div id="header2">
+                        
+                    </div>
+                    <div class="article">
+    
+                    </div>
+                    <div class="article">
+                         
+                    </div>
+                    <div class="article">
+    
+                    </div>
+                </div>
+            </div>
+
+            <div id="aside">
+                <div id="header3"></div>
+            </div>
+        </div>
+        <div id="footer_container">
+            <div id="footer"></div>
+        </div>
+    </div>
+</body>
+</html>

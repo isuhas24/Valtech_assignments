@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout using positions</title>
+    <style>
+        .container{
+            width:920px;
+            height:610px;
+            background-color: aliceblue;
+            outline:1px solid black;
+        }
+        p{
+            margin-left: 5px;
+        }
+        .main_header{
+            width:900px;
+            height: 50px;
+            background-color: yellow;
+            margin:10px auto;
+            text-align: left;
+            line-height: 50px;
+            outline: 1px solid black;
+        }
+        nav{
+            width:900px;
+            height:50px;
+            background-color: orange;
+            margin:10px;
+            text-align: left;
+            line-height: 50px;
+            outline: 1px solid black;
+        }
+        .main_aside_container{
+            height:400px;
+        } 
+        main{
+            width:60%;
+            background-color: blue;
+            height:95%;
+            margin:10px;
+            outline:1px solid black;
+            text-align: center;
+            color:white;
+            float:left;
+        }
+        section{
+            width:90%;
+            height:70%;
+            background-color: grey;
+            margin:25px;
+            text-align: left;
+            outline: 1px solid black;
+            color:black;
+        }
+        .section_header{
+            width:95%;
+            height:35px;
+            background-color: yellow;
+            text-align: left;
+            line-height: 40px;
+            outline: 1px solid black;
+            margin:10px;
+        }
+        article{
+            width:95%;
+            height:35px;
+            margin:10px;
+            background-color:aliceblue;
+            outline:1px solid black; 
+            text-align: left;
+            line-height: 50px;
+        }
+        aside{
+            width:35%;
+            height: 360px;
+            background-color: gray;
+            float:left;
+            margin:10px;
+            outline: 1px solid black;
+            text-align: center;
+        }
+        .clear_class{
+            clear:both;
+        }
+        .aside_header{
+            width:95%;
+            height:40px;
+            background-color: yellow;
+            margin:10px;
+            text-align: center;
+            line-height: 40px;
+            outline: 1px solid black;
+        }
+        footer{
+            width:900px;
+            height:50px;
+            background-color: rgb(104, 76, 81);
+            text-align: left;
+            line-height: 50px;
+            margin:10px;
+            outline:1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="main_header">
+            <p>header</p>
+        </header>
+        <nav>
+            <p>nav</p>
+        </nav>
+        <div class="main_aside_container">
+            <main>
+                <p>main</p>
+                <section>
+                    <p>section</p>
+                    <header class="section_header"><p>header</p></header>
+                    <article><p>article</p></article>
+                    <article><p>article</p></article>
+                    <article><p>article</p></article>
+                </section>
+            </main>
+            <aside>
+                <p>aside</p>
+                <header class="aside_header"><p>header</p></header>
+            </aside>
+        </div>
+        <div class="clear_class"></div>
+        <footer><p>footer</p></footer>
+    </div>
+</body>
+</html>

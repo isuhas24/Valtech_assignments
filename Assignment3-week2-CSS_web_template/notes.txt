@@ -1,0 +1,1 @@
+* creating the overlay for the image right below the navbar caused confusions.

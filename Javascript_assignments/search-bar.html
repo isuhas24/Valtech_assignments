@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search bar</title>
+    <style>
+        .container{
+            width:600px;
+            height: 600px;
+            background-color: rgb(226, 244, 238);
+            border-radius: 10px;
+            margin: 50px auto;
+            box-sizing: border-box;
+            padding: 50px;
+            text-align: center;
+        }
+        input{
+            width:350px;
+            height:50px;
+            border-radius: 10px;
+            margin:20px;
+            box-shadow: 5px 5px 10px black;
+        }
+        button{
+            width:70px;
+            height: 50px;
+            border-radius: 5px;
+            background-color: chocolate;
+            color: white;
+            box-shadow: 5px 5px 10px black;
+        }
+        p{
+            text-align: justify;
+        }
+        span{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+
+        <!--input area to obtain user input-->
+        <input type="text" required id="userInput" name="userInput">
+        <button>search</button>
+        <hr>
+        <button>clear</button>
+
+        <!--paragraph-->
+        <p>We are a global digital company made up of innovators who develop and create as a way of life. The richness of perspectives at Valtech is derived from our incredible diversity. Our international culture positions the Valtech team to work on global projects with a lasting positive impact</p>
+    </div>
+    
+    <i></i>
+    <script>
+        // var content=document.getElementsByTagName("p")[0].innerText;
+        // console.log(content)
+        // var name="suhas";
+
+        // var replaced=document.getElementsByTagName("p")[0].innerHTML.replace("Suhas","<i>"+name+"</i>");
+        // document.getElementsByTagName("p")[0].innerHTML=replaced;
+
+        //console.log(document.getElementsByTagName("p")[0].innerHTML.replace("suhas","<i>"+name+"</i>"));
+
+
+        function clickHandler(){
+            var content=document.getElementsByTagName("p")[0].innerText;
+            var word=document.getElementById("userInput").value;
+            var pattern=new RegExp(word,'gi');
+
+            // console.log(content);
+            // console.log(word);
+            document.getElementsByTagName("p")[0].innerHTML=document.getElementsByTagName("p")[0].innerHTML.replaceAll(pattern,"<span>"+word+"</span>");
+            document.getElementsByTagName("button")[1].addEventListener("click",function(){
+                document.getElementsByTagName("p")[0].innerHTML=document.getElementsByTagName("p")[0].innerHTML.replaceAll("<span>"+word+"</span>",word);
+                document.getElementById("userInput").value="";
+            });
+        }
+
+        function init(){
+            document.getElementsByTagName("button")[0].addEventListener("click",clickHandler);
+        }
+
+        document.addEventListener("DOMContentLoaded",init);
+
+    </script>
+</body>
+</html>

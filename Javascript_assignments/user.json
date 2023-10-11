@@ -1,0 +1,19 @@
+{
+    "user":[
+        {"mobile":"8577633464","imei":"869161029912920","service-provider":"airtel","network-status":"great","battery-status":"15%","address":"Bangalore","health-conditions":"thyroid"},
+        {"mobile":"4967563494","imei":"862123021152787","service-provider":"reliance-jio","network-status":"good","battery-status":"85%","address":"Mangalore","health-conditions":"dust allergic"},
+        {"mobile":"8948396935","imei":"490154203237518","service-provider":"airtel","network-status":"bad","battery-status":"49%","address":"Delhi","health-conditions":"pollen allergic"},
+        {"mobile":"9976391944","imei":"990012011001853","service-provider":"realiance-jio","network-status":"poor","battery-status":"97%","address":"Madikeri","health-conditions":"insect and pest allergic"},
+        {"mobile":"6111826453","imei":"991001201328101","service-provider":"VI","network-status":"good","battery-status":"27%","address":"Coorg","health-conditions":"photosensitivity"}
+    ],
+
+    "place":[
+        {"name-of-place":"Bengaluru fort","type-of-place":"historical","latitude":"13.0035°N","longitude":"77.5891°E","from-timing":"10am","to-timing":"5pm","dress-code":"bright flowy dress","entrance-fees":"230","special-instructions":"nominal charges applied on mobile cameras and video cameras"},
+        {"name-of-place":"Bengaluru palace","type-of-place":"historical","latitude":"13.0035°N","longitude":"77.5891°E","from-timing":"10am","to-timing":"5pm","dress-code":"bright flowy dress","entrance-fees":"230","special-instructions":"nominal charges applied on mobile cameras and video cameras"},
+        {"name-of-place":"chikkamagaluru","type-of-place":"adventorous","latitude":"13.0035°N","longitude":"77.5891°E","from-timing":"10am","to-timing":"5pm","dress-code":"bright flowy dress","entrance-fees":"230","special-instructions":"be aware of heights"},
+        {"name-of-place":"Hampi","type-of-place":"historical","latitude":"13.0035°N","longitude":"77.5891°E","from-timing":"10am","to-timing":"5pm","dress-code":"bright flowy dress","entrance-fees":"230","special-instructions":"nominal charges applied on mobile cameras and video cameras"},
+        {"name-of-place":"Murdeshwar","type-of-place":"religious","latitude":"13.0035°N","longitude":"77.5891°E","from-timing":"10am","to-timing":"5pm","dress-code":"bright flowy dress","entrance-fees":"230","special-instructions":"remove your footwear"},
+        {"name-of-place":"panambur beach","type-of-place":"beaches","latitude":"13.0035°N","longitude":"77.5891°E","from-timing":"10am","to-timing":"5pm","dress-code":"bright flowy dress","entrance-fees":"230","special-instructions":"be aware of big waves"},
+        {"name-of-place":"Rameshwaram cafe","type-of-place":"food","latitude":"13.0035°N","longitude":"77.5891°E","from-timing":"10am","to-timing":"5pm","dress-code":"casuals","entrance-fees":"0","special-instructions":"wide range of south indian foods available"}
+    ]
+}

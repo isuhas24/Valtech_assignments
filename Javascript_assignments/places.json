@@ -1,0 +1,94 @@
+{
+    "places":{
+        "cities":{
+            "bengaluru":[
+                {
+                    "name-of-place":"Bengaluru fort",
+                    "type-of-place":"historical",
+                    "latitude":"13.0035°N",
+                    "longitude":"77.5891°E",
+                    "from-timing":"10am",
+                    "to-timing":"5pm",
+                    "dress-code":"bright flowy dress",
+                    "entrance-fees":"230",
+                    "special-instructions":"nominal charges applied on mobile cameras and video cameras"
+                },
+                {
+                    "name-of-place":"Bengaluru palace",
+                    "type-of-place":"historical",
+                    "latitude":"13.0035°N",
+                    "longitude":"77.5891°E",
+                    "from-timing":"10am",
+                    "to-timing":"5pm",
+                    "dress-code":"bright flowy dress",
+                    "entrance-fees":"230",
+                    "special-instructions":"nominal charges applied on mobile cameras and video cameras"
+                },
+                {
+                    "name-of-place":"Rameshwaram cafe",
+                    "type-of-place":"food",
+                    "latitude":"13.0035°N",
+                    "longitude":"77.5891°E",
+                    "from-timing":"10am",
+                    "to-timing":"5pm",
+                    "dress-code":"casuals",
+                    "entrance-fees":"230",
+                    "special-instructions":"wide range of south indian foods available"
+                }
+            ],
+            "chikkamagaluru":[
+                {
+                    "name-of-place":"chikkamagaluru",
+                    "type-of-place":"adventorous",
+                    "latitude":"13.0035°N",
+                    "longitude":"77.5891°E",
+                    "from-timing":"10am",
+                    "to-timing":"5pm",
+                    "dress-code":"bright flowy dress",
+                    "entrance-fees":"230",
+                    "special-instructions":"be aware of heights"
+                }
+            ],
+            "hampi":[
+                {
+                    "name-of-place":"hampi",
+                    "type-of-place":"historical",
+                    "latitude":"13.0035°N",
+                    "longitude":"77.5891°E",
+                    "from-timing":"10am",
+                    "to-timing":"5pm",
+                    "dress-code":"bright flowy dress",
+                    "entrance-fees":"230",
+                    "special-instructions":"nominal charges applied on mobile cameras and video cameras"
+                }
+            ],
+            "mangalore":[
+                {
+                    "name-of-place":"panambur beach",
+                    "type-of-place":"beaches",
+                    "latitude":"13.0035°N",
+                    "longitude":"77.5891°E",
+                    "from-timing":"10am",
+                    "to-timing":"5pm",
+                    "dress-code":"bright flowy dress",
+                    "entrance-fees":"230",
+                    "special-instructions":"be aware of big waves"
+                }
+            ],
+            "murdeshwar":[
+                {
+                    "name-of-place":"panambur beach",
+                    "type-of-place":"beaches",
+                    "latitude":"13.0035°N",
+                    "longitude":"77.5891°E",
+                    "from-timing":"10am",
+                    "to-timing":"5pm",
+                    "dress-code":"bright flowy dress",
+                    "entrance-fees":"230",
+                    "special-instructions":"remove your footwear"
+                }
+            ]
+
+        }
+    }
+}
